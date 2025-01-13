@@ -29,4 +29,23 @@ public class Calcolatrice
 		diff = d1-d2;
 		return diff;
 	}
+	
+	public double moltiplicazione(double m1, double m2)
+	{
+		double risultato=0;
+		risultato = m1 * m2;
+		return risultato;
+	}
+	
+	public double divisione(double d1, double d2)
+	{
+		double risultato=0;
+		if(d2 == 0) 
+		{
+			System.out.println("ERRORE!!! Divisione per 0!!");
+		}
+		risultato = d1 / d2;
+		return risultato;
+	}
+	
 }
