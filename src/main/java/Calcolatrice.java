@@ -42,7 +42,7 @@ public class Calcolatrice
 		double risultato=0;
 		if(d2 == 0) 
 		{
-			System.out.println("ERRORE!!! Divisione per 0!!");
+			System.out.println("ERRORE! Divisione per 0!!");
 		}
 		risultato = d1 / d2;
 		return risultato;
